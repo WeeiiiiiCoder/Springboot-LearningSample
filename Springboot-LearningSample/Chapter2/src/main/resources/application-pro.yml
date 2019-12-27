@@ -1,0 +1,17 @@
+server:
+  port: 1111
+
+com:
+  lazy:
+    # 数组(LIST,SET,[])
+    phoneList:
+      - XIAOMI
+      - HUAWEI
+      - IPHONE
+      - SUMSUNG
+    # 对象/MAP k,v形式
+    phoneName:
+      XIAOMI: 小米
+      HUAWEI: 华为
+      IPHONE: 苹果
+      SUMSUNG: 三星

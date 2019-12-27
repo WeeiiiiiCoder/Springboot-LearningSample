@@ -1,0 +1,28 @@
+# springboot profiles 配置文件官方命名约定 application-{profile}.properties/yml
+# 项目启动会先加载指定配置文件,再加载application.properties/yml配置文件,相同配置会被后者覆盖
+# 主配置文件通过以下指定profile文件
+# .properties配置文件 spring.profiles.active={profile}
+# .yml配置文件 如下
+# 搭配注解 @Profile()匹配active参数,动态加载配置
+# 注解指定的配置只对active参数生效
+spring:
+  profiles:
+    active: pro #启用pro配置文件
+
+com:
+  lazyboy:
+    name: lazyboy
+    title: Springboot-LearningSample
+    # 随机字符串
+    value: ${random.value}
+    # 随机整数
+    number: ${random.int}
+    # 随机Long
+    bignumber: ${random.long}
+    # 10以内随机整数
+    maxTen: ${random.int(10)}
+    # uuid
+    uuid: ${random.uuid}
+    # 10-20以内整数
+    min2max: ${random.int(10,20)}
+
