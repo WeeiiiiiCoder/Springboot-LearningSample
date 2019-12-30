@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<!--启用thymeleaf支持,但是不加也能跑起来-->
+<!--<html lang="en" xmlns:th="http://www.thymeleaf.org">-->
+<head>
+    <meta charset="UTF-8"/>
+    <title>Springboot整合Thymeleaf</title>
+</head>
+<body>
+    <h1 th:text="'Hello '+${host}">Hello,LazyBoy!</h1>
+</body>
+</html>

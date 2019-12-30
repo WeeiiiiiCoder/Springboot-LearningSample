@@ -40,7 +40,6 @@ public class ConfigurationValueTest {
     public void advancedModelPropertiesTests() {
         log.info(advancedModelProperties.getPhoneList().toString());
         log.info(advancedModelProperties.getPhoneName().toString());
-
     }
 
 }
