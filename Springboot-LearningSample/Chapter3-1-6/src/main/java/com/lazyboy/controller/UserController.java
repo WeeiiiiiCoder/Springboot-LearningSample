@@ -1,6 +1,6 @@
 package com.lazyboy.controller;
 
-import com.lazyboy.model.User;
+import com.lazyboy.primary.User;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

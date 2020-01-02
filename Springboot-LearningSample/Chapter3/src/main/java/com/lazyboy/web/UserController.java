@@ -1,6 +1,6 @@
 package com.lazyboy.web;
 
-import com.lazyboy.model.User;
+import com.lazyboy.primary.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 

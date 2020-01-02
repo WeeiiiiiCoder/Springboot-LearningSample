@@ -1,6 +1,6 @@
 package com.lazyboy.web;
 
-import com.lazyboy.model.User;
+import com.lazyboy.primary.User;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

@@ -1,4 +1,4 @@
-package com.lazyboy.model;
+package com.lazyboy.primary;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

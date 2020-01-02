@@ -1,7 +1,7 @@
 package com.lazyboy;
 
-import com.lazyboy.model.AdvancedModelProperties;
-import com.lazyboy.model.BasicModelProperties;
+import com.lazyboy.primary.AdvancedModelProperties;
+import com.lazyboy.primary.BasicModelProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.Test;
