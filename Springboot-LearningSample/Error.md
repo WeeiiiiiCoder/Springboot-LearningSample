@@ -5,3 +5,4 @@
   只要测试类加`@Transactional`就会回滚,可以通过`@RollBack(false)`取消回滚。
 - SpringBoot单元测试报错日志:Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
   无法找到SpringBoot配置,需要指定SpringBoot配置。原因一般是没有添加SpringBoot启动类或者启动类和测试类不在同一级目录下
+- Springboot加载DataSource过程?如何通过Java DataSourceBuilder加载配置文件的数据?DataSourceBuilder是如何实现建造者模式的?
