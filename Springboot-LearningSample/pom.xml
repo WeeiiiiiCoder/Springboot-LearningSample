@@ -23,6 +23,7 @@
         <module>Chapter3-2-2</module>
         <module>Chapter3-2-3</module>
         <module>Chapter3-2-4</module>
+        <module>Chapter3-2-5</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
