@@ -39,4 +39,17 @@ public class ApplicationTest {
         secondaryUserRepository.save(new com.lazyboy.secondary.User("pri-4", 18));
         assertEquals(4, secondaryUserRepository.count());
     }
+
+
+    @Test
+    public void testGrade() {
+        int exp = 300;
+        ArrayList<User> users = new ArrayList<>();
+        users.add(new User("pri-0", 0));
+        users.add(new User("pri-1", 100));
+        users.add(new User("pri-2", 200));
+        users.add(new User("pri-3", 300));
+        Optional<User> first = users.stream().filter(user -> user.getAge() < exp).max(Comparator.comparingInt(User::getAge));
+        System.out.println(first);
+    }
 }
